@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicVariables", "BasicVari
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dataTypesCasting", "dataTypesCasting\dataTypesCasting.csproj", "{E39310B3-98DF-414B-BA2E-A8EB9E466062}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstantVariables", "ConstantVariables\ConstantVariables.csproj", "{2CC2B08B-8CA2-4D72-B6D6-762FB112494E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{E39310B3-98DF-414B-BA2E-A8EB9E466062}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E39310B3-98DF-414B-BA2E-A8EB9E466062}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E39310B3-98DF-414B-BA2E-A8EB9E466062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC2B08B-8CA2-4D72-B6D6-762FB112494E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC2B08B-8CA2-4D72-B6D6-762FB112494E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC2B08B-8CA2-4D72-B6D6-762FB112494E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC2B08B-8CA2-4D72-B6D6-762FB112494E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{EEA0634C-DB1C-402F-9AB7-F28079511A2F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{E39310B3-98DF-414B-BA2E-A8EB9E466062} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2CC2B08B-8CA2-4D72-B6D6-762FB112494E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD240BFE-F612-4D31-B438-DD8F1913314F}
