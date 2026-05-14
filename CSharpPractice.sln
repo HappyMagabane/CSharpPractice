@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentCounter", "Assign
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompareNumber", "CompareNumber\CompareNumber.csproj", "{AC06FBFC-60C1-4982-9133-D542704B3B90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparePassword", "ComparePassword\ComparePassword.csproj", "{67544F64-C25F-420D-83D2-1D8F86877A5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{AC06FBFC-60C1-4982-9133-D542704B3B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC06FBFC-60C1-4982-9133-D542704B3B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC06FBFC-60C1-4982-9133-D542704B3B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67544F64-C25F-420D-83D2-1D8F86877A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67544F64-C25F-420D-83D2-1D8F86877A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67544F64-C25F-420D-83D2-1D8F86877A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67544F64-C25F-420D-83D2-1D8F86877A5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{1C0F7D58-D6CA-44D3-B9DA-91A459099550} = {F1D3E81E-7293-4BF6-A875-0FDF0A51DC23}
 		{9C0C7473-7F17-4E0F-A597-D87C397A4B78} = {F1D3E81E-7293-4BF6-A875-0FDF0A51DC23}
 		{AC06FBFC-60C1-4982-9133-D542704B3B90} = {F1D3E81E-7293-4BF6-A875-0FDF0A51DC23}
+		{67544F64-C25F-420D-83D2-1D8F86877A5D} = {F1D3E81E-7293-4BF6-A875-0FDF0A51DC23}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD240BFE-F612-4D31-B438-DD8F1913314F}
