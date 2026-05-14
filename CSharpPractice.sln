@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Operators", "Operators", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{1C0F7D58-D6CA-44D3-B9DA-91A459099550}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9138C1DC-E9FA-45FA-8C4B-4F4A982FC741}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentCounter", "AssignmentCounter\AssignmentCounter.csproj", "{9C0C7473-7F17-4E0F-A597-D87C397A4B78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{1C0F7D58-D6CA-44D3-B9DA-91A459099550}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C0F7D58-D6CA-44D3-B9DA-91A459099550}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C0F7D58-D6CA-44D3-B9DA-91A459099550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C0C7473-7F17-4E0F-A597-D87C397A4B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0C7473-7F17-4E0F-A597-D87C397A4B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0C7473-7F17-4E0F-A597-D87C397A4B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0C7473-7F17-4E0F-A597-D87C397A4B78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +61,8 @@ Global
 		{2CC2B08B-8CA2-4D72-B6D6-762FB112494E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{311D8C7F-D011-4307-81E2-AD559E93DDE1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{1C0F7D58-D6CA-44D3-B9DA-91A459099550} = {F1D3E81E-7293-4BF6-A875-0FDF0A51DC23}
+		{9138C1DC-E9FA-45FA-8C4B-4F4A982FC741} = {F1D3E81E-7293-4BF6-A875-0FDF0A51DC23}
+		{9C0C7473-7F17-4E0F-A597-D87C397A4B78} = {9138C1DC-E9FA-45FA-8C4B-4F4A982FC741}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD240BFE-F612-4D31-B438-DD8F1913314F}
