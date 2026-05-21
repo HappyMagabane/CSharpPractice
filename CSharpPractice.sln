@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureConverter", "Tem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeCalculator", "AgeCalculator\AgeCalculator.csproj", "{AF99EDD5-3A16-41C1-8250-9CF964638E87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBankingSystem", "SimpleBankingSystem\SimpleBankingSystem.csproj", "{0CB00A42-77BF-4CCA-AD20-806273FB2A07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,10 @@ Global
 		{AF99EDD5-3A16-41C1-8250-9CF964638E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF99EDD5-3A16-41C1-8250-9CF964638E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF99EDD5-3A16-41C1-8250-9CF964638E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB00A42-77BF-4CCA-AD20-806273FB2A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB00A42-77BF-4CCA-AD20-806273FB2A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB00A42-77BF-4CCA-AD20-806273FB2A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB00A42-77BF-4CCA-AD20-806273FB2A07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +129,7 @@ Global
 		{A31B1B22-8EA4-4B1F-8168-E2B253E97AEF} = {F1D3E81E-7293-4BF6-A875-0FDF0A51DC23}
 		{99430F43-5EC6-4B7A-9994-F7E8BE3DFA84} = {F1D3E81E-7293-4BF6-A875-0FDF0A51DC23}
 		{AF99EDD5-3A16-41C1-8250-9CF964638E87} = {F1D3E81E-7293-4BF6-A875-0FDF0A51DC23}
+		{0CB00A42-77BF-4CCA-AD20-806273FB2A07} = {F1D3E81E-7293-4BF6-A875-0FDF0A51DC23}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD240BFE-F612-4D31-B438-DD8F1913314F}
