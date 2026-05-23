@@ -39,17 +39,50 @@ namespace StringMethods
                 Console.WriteLine($"\nThe character '{searchChar}' was not found in the string.");
             }
 
-                string upperCaseString = sampleString.ToUpper();
-                Console.WriteLine($"Uppercase version of the string: {upperCaseString}");
-                string lowerCaseString = sampleString.ToLower();
-                Console.WriteLine($"Lowercase version of the string: {lowerCaseString}");
+            string upperCaseString = sampleString.ToUpper();
+            Console.WriteLine($"Uppercase version of the string: {upperCaseString}");
+            string lowerCaseString = sampleString.ToLower();
+            Console.WriteLine($"Lowercase version of the string: {lowerCaseString}");
 
             string replacedString = sampleString.Replace("world", "universe");
             Console.WriteLine("Replaced string: " + replacedString);
 
             Console.Write("Enter your name: ");
-            char[] nameChars = Console.ReadLine().ToCharArray();
-            Console.WriteLine($" {string.Join(", ", nameChars)} ");
+            Console.WriteLine("Concanated text: " + replacedString + Console.ReadLine());
+
+            string extractSubstring = sampleString.Substring(0, 5);
+            Console.WriteLine($"Extracted substring: {extractSubstring}");
+
+            bool startsWithHello = sampleString.StartsWith("Hello");
+            Console.WriteLine($"Does the string start with 'Hello'? {startsWithHello}");
+            bool endsWithPeriod = sampleString.EndsWith(".");
+            Console.WriteLine($"Does the string end with '.'? {endsWithPeriod}");
+
+            Console.Write("Enter a string to search for: ");
+            string searchString = Console.ReadLine();
+            bool containsSearchString = sampleString.Contains(searchString);
+            Console.WriteLine($"Does the string contain '{searchString}'? {containsSearchString}");
+
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+            bool isNameInString = sampleString.Contains(name);
+            Console.WriteLine($"Is your name in the string? {isNameInString}");
+
+            int startIndex = sampleString.IndexOf("Beautiful");
+            if (startIndex != -1)
+            {
+                string extractedSubstring = sampleString.Substring(startIndex, "Beautiful".Length);
+                Console.WriteLine($"Copied word: {extractedSubstring}");
+            }
+            else
+            {
+                Console.WriteLine("The word 'Beautiful' was not found in the string.");
+
+                sampleString.Split(' ').ToList().ForEach(word => Console.WriteLine(word));
+                foreach (char word in sampleString)
+                {
+                    string formattedOutput = ($"{word} {word.Length}");
+                    Console.WriteLine(formattedOutput);
 
 
 
@@ -63,7 +96,11 @@ namespace StringMethods
 
 
 
-        }
+
+
+
+                }
         }
     }
+}
 
