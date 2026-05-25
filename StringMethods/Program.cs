@@ -77,21 +77,19 @@ namespace StringMethods
             else
             {
                 Console.WriteLine("The word 'Beautiful' was not found in the string.");
+            }
 
-                sampleString.Split(' ').ToList().ForEach(word => Console.WriteLine(word));
-                foreach (char word in sampleString)
-                {
-                    string formattedOutput = ($"{word} {word.Length}");
-                    Console.WriteLine(formattedOutput);
+            string[] wordsArray = sampleString.Split(' ');
+            foreach (string word in wordsArray)
+            {
 
+                Console.WriteLine($"{word} ({word.Length})");
+            }
 
+                string joinedString= String.Join(" ", wordsArray);
+                Console.WriteLine($"Joined string: {joinedString}");
 
-
-
-
-
-
-
+            
 
 
 
@@ -99,7 +97,16 @@ namespace StringMethods
 
 
 
-                }
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
