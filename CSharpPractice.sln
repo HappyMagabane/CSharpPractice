@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessStringCharacters", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterMethods", "CharacterMethods\CharacterMethods.csproj", "{2580122A-1A3B-4F9B-A6B5-89B0A207747D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstLettersDisplay", "FirstLettersDisplay\FirstLettersDisplay.csproj", "{970D488F-1922-4713-9609-1E152D24DFF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{2580122A-1A3B-4F9B-A6B5-89B0A207747D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2580122A-1A3B-4F9B-A6B5-89B0A207747D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2580122A-1A3B-4F9B-A6B5-89B0A207747D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{970D488F-1922-4713-9609-1E152D24DFF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970D488F-1922-4713-9609-1E152D24DFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970D488F-1922-4713-9609-1E152D24DFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970D488F-1922-4713-9609-1E152D24DFF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +166,7 @@ Global
 		{FCC2E881-211C-43D6-9FE5-5DBBCB5635A9} = {8EA8172E-8F24-40CC-8CCD-936BFC044DCE}
 		{A67192FF-D27B-4D42-A9DB-268E5BD38474} = {8EA8172E-8F24-40CC-8CCD-936BFC044DCE}
 		{2580122A-1A3B-4F9B-A6B5-89B0A207747D} = {8EA8172E-8F24-40CC-8CCD-936BFC044DCE}
+		{970D488F-1922-4713-9609-1E152D24DFF5} = {8EA8172E-8F24-40CC-8CCD-936BFC044DCE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD240BFE-F612-4D31-B438-DD8F1913314F}
