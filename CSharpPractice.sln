@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstLettersDisplay", "Firs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordStrengthChecker", "PasswordStrengthChecker\PasswordStrengthChecker.csproj", "{CB0B2508-8148-4225-825B-AF8AABF779DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalysisTool", "TextAnalysisTool\TextAnalysisTool.csproj", "{49E81A2E-7C6F-444E-AA1C-650F63493B14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{CB0B2508-8148-4225-825B-AF8AABF779DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB0B2508-8148-4225-825B-AF8AABF779DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB0B2508-8148-4225-825B-AF8AABF779DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E81A2E-7C6F-444E-AA1C-650F63493B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E81A2E-7C6F-444E-AA1C-650F63493B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E81A2E-7C6F-444E-AA1C-650F63493B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E81A2E-7C6F-444E-AA1C-650F63493B14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -174,6 +180,7 @@ Global
 		{2580122A-1A3B-4F9B-A6B5-89B0A207747D} = {8EA8172E-8F24-40CC-8CCD-936BFC044DCE}
 		{970D488F-1922-4713-9609-1E152D24DFF5} = {8EA8172E-8F24-40CC-8CCD-936BFC044DCE}
 		{CB0B2508-8148-4225-825B-AF8AABF779DB} = {8EA8172E-8F24-40CC-8CCD-936BFC044DCE}
+		{49E81A2E-7C6F-444E-AA1C-650F63493B14} = {8EA8172E-8F24-40CC-8CCD-936BFC044DCE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD240BFE-F612-4D31-B438-DD8F1913314F}
