@@ -59,6 +59,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringReversalProgram", "St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleEncryptionProgram", "SimpleEncryptionProgram\SimpleEncryptionProgram.csproj", "{7876CEFE-8690-4269-BE03-965041105066}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. SelectionControlStatement", "4. SelectionControlStatement", "{3256F532-4FE1-401F-AFC7-99510DA7E195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfAdultProgram", "IfAdultProgram\IfAdultProgram.csproj", "{4F490CBA-F5AB-495D-B81D-FBFB99DA1139}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +169,10 @@ Global
 		{7876CEFE-8690-4269-BE03-965041105066}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7876CEFE-8690-4269-BE03-965041105066}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7876CEFE-8690-4269-BE03-965041105066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F490CBA-F5AB-495D-B81D-FBFB99DA1139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F490CBA-F5AB-495D-B81D-FBFB99DA1139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F490CBA-F5AB-495D-B81D-FBFB99DA1139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F490CBA-F5AB-495D-B81D-FBFB99DA1139}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -195,6 +203,7 @@ Global
 		{49E81A2E-7C6F-444E-AA1C-650F63493B14} = {8EA8172E-8F24-40CC-8CCD-936BFC044DCE}
 		{415C9267-C8F1-4C5C-A0C4-872E32FD5ED6} = {8EA8172E-8F24-40CC-8CCD-936BFC044DCE}
 		{7876CEFE-8690-4269-BE03-965041105066} = {8EA8172E-8F24-40CC-8CCD-936BFC044DCE}
+		{4F490CBA-F5AB-495D-B81D-FBFB99DA1139} = {3256F532-4FE1-401F-AFC7-99510DA7E195}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD240BFE-F612-4D31-B438-DD8F1913314F}
