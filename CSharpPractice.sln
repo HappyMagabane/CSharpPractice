@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfAdultProgram", "IfAdultPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfPositiveNumber", "IfPositiveNumber\IfPositiveNumber.csproj", "{59E0B9ED-91AE-45B4-9C0A-3E4CB9331BB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfCredentials", "IfCredentials\IfCredentials.csproj", "{FACF4370-5A09-4396-A137-4278FFDFB4BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -179,6 +181,10 @@ Global
 		{59E0B9ED-91AE-45B4-9C0A-3E4CB9331BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59E0B9ED-91AE-45B4-9C0A-3E4CB9331BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59E0B9ED-91AE-45B4-9C0A-3E4CB9331BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FACF4370-5A09-4396-A137-4278FFDFB4BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FACF4370-5A09-4396-A137-4278FFDFB4BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FACF4370-5A09-4396-A137-4278FFDFB4BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FACF4370-5A09-4396-A137-4278FFDFB4BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -211,6 +217,7 @@ Global
 		{7876CEFE-8690-4269-BE03-965041105066} = {8EA8172E-8F24-40CC-8CCD-936BFC044DCE}
 		{4F490CBA-F5AB-495D-B81D-FBFB99DA1139} = {3256F532-4FE1-401F-AFC7-99510DA7E195}
 		{59E0B9ED-91AE-45B4-9C0A-3E4CB9331BB3} = {3256F532-4FE1-401F-AFC7-99510DA7E195}
+		{FACF4370-5A09-4396-A137-4278FFDFB4BD} = {3256F532-4FE1-401F-AFC7-99510DA7E195}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD240BFE-F612-4D31-B438-DD8F1913314F}
