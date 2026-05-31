@@ -75,6 +75,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchMonthProgram", "Switc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionWithdraw", "SelectionWithdraw\SelectionWithdraw.csproj", "{7ABE2FC0-F236-4830-987C-60E7F80BFD11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionIfTriangle", "SelectionIfTriangle\SelectionIfTriangle.csproj", "{2BAE3336-A88C-4227-BBC9-3AAFF6FDAECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeCalculator", "GradeCalculator\GradeCalculator.csproj", "{32ED822F-82A8-4895-B7DD-35E62C570326}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -209,6 +213,14 @@ Global
 		{7ABE2FC0-F236-4830-987C-60E7F80BFD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ABE2FC0-F236-4830-987C-60E7F80BFD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ABE2FC0-F236-4830-987C-60E7F80BFD11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BAE3336-A88C-4227-BBC9-3AAFF6FDAECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BAE3336-A88C-4227-BBC9-3AAFF6FDAECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BAE3336-A88C-4227-BBC9-3AAFF6FDAECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BAE3336-A88C-4227-BBC9-3AAFF6FDAECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32ED822F-82A8-4895-B7DD-35E62C570326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32ED822F-82A8-4895-B7DD-35E62C570326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32ED822F-82A8-4895-B7DD-35E62C570326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32ED822F-82A8-4895-B7DD-35E62C570326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -246,6 +258,8 @@ Global
 		{153480C8-6E9F-4D06-B299-53C4A5BAEA3E} = {3256F532-4FE1-401F-AFC7-99510DA7E195}
 		{4172EF90-92D8-4F35-A221-9802D98D2085} = {3256F532-4FE1-401F-AFC7-99510DA7E195}
 		{7ABE2FC0-F236-4830-987C-60E7F80BFD11} = {3256F532-4FE1-401F-AFC7-99510DA7E195}
+		{2BAE3336-A88C-4227-BBC9-3AAFF6FDAECD} = {3256F532-4FE1-401F-AFC7-99510DA7E195}
+		{32ED822F-82A8-4895-B7DD-35E62C570326} = {3256F532-4FE1-401F-AFC7-99510DA7E195}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD240BFE-F612-4D31-B438-DD8F1913314F}
