@@ -81,6 +81,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeCalculator", "GradeCal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketPriceCalculator", "TicketPriceCalculator\TicketPriceCalculator.csproj", "{DA5119AC-2772-4412-A5EB-FBB175901332}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Loops", "5. Loops", "{42676F42-8F68-4892-AAC5-C899BF2E2F8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericForLoops", "NumericForLoops\NumericForLoops.csproj", "{522FC3A7-9E2D-46C6-83AC-CB12508B299E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -227,6 +231,10 @@ Global
 		{DA5119AC-2772-4412-A5EB-FBB175901332}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA5119AC-2772-4412-A5EB-FBB175901332}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA5119AC-2772-4412-A5EB-FBB175901332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522FC3A7-9E2D-46C6-83AC-CB12508B299E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522FC3A7-9E2D-46C6-83AC-CB12508B299E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522FC3A7-9E2D-46C6-83AC-CB12508B299E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522FC3A7-9E2D-46C6-83AC-CB12508B299E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -267,6 +275,7 @@ Global
 		{2BAE3336-A88C-4227-BBC9-3AAFF6FDAECD} = {3256F532-4FE1-401F-AFC7-99510DA7E195}
 		{32ED822F-82A8-4895-B7DD-35E62C570326} = {3256F532-4FE1-401F-AFC7-99510DA7E195}
 		{DA5119AC-2772-4412-A5EB-FBB175901332} = {3256F532-4FE1-401F-AFC7-99510DA7E195}
+		{522FC3A7-9E2D-46C6-83AC-CB12508B299E} = {42676F42-8F68-4892-AAC5-C899BF2E2F8B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD240BFE-F612-4D31-B438-DD8F1913314F}
