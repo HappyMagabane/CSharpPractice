@@ -7,7 +7,7 @@
             string correctPassword = "SecretC@2026";
             string enteredPassword;
 
-            Console.WriteLine("=== System Security Gate ===");
+            Console.WriteLine("System Security Blockage:");
 
             
             do
@@ -26,7 +26,6 @@
             
             Console.WriteLine("\n=================================");
             Console.WriteLine("Access Granted! Welcome back.");
-            Console.WriteLine("=================================");
         }
     }
 }
