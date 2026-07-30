@@ -19,3 +19,24 @@ From the repository root directory, execute:
 ```bash
 dotnet run --project dataTypesCasting/dataTypesCasting.csproj
 ```
+
+
+---
+
+## 📊 Control Flow Chart
+
+```mermaid
+graph TD
+    Start([Start]) --> Init[Initialize variables with default/predefined values]
+    Init --> Print[Print formatted variables to the Console]
+    Print --> End([End])
+```
+
+---
+
+## 🧪 Test Cases Spec
+
+| Test Case ID | Test Scenario | Inputs | Expected Output |
+| :--- | :--- | :--- | :--- |
+| TC01 | Verify Console Output | None | Displays variables (age, nickname, etc.) with descriptive labels |
+| TC02 | Verify Formatting | None | Values display correctly in composite or string interpolation format |
