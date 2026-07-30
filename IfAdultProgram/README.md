@@ -16,3 +16,29 @@ From the repository root directory, execute:
 ```bash
 dotnet run --project IfAdultProgram/IfAdultProgram.csproj
 ```
+
+
+---
+
+## 📊 Control Flow Chart
+
+```mermaid
+graph TD
+    Start([Start]) --> Input[Prompt and read user input]
+    Input --> Parse[Parse input to appropriate data type]
+    Parse --> Check{Check condition}
+    Check -- Yes --> TrueBlock[Execute positive branch & display message]
+    Check -- No --> FalseBlock[Execute negative branch & display message]
+    TrueBlock --> End([End])
+    FalseBlock --> End
+```
+
+---
+
+## 🧪 Test Cases Spec
+
+| Test Case ID | Test Scenario | Inputs | Expected Output |
+| :--- | :--- | :--- | :--- |
+| TC01 | Passing Threshold | Positive boundary value | Display success/eligible output |
+| TC02 | Failing Boundary | Value below threshold | Display failure/minor/not eligible output |
+| TC03 | Edge Input | Null or non-numeric | Handles input parsing exception gracefully |
