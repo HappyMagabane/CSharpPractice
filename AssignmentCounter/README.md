@@ -16,3 +16,22 @@ From the repository root directory, execute:
 ```bash
 dotnet run --project AssignmentCounter/AssignmentCounter.csproj
 ```
+
+
+---
+
+## 📊 Control Flow Chart
+
+```mermaid
+graph TD
+    Start([Start]) --> Action[Run practice program logic]
+    Action --> End([End])
+```
+
+---
+
+## 🧪 Test Cases Spec
+
+| Test Case ID | Test Scenario | Inputs | Expected Output |
+| :--- | :--- | :--- | :--- |
+| TC01 | Basic Run | Run program | Verified output matches requirements |
