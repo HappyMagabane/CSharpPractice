@@ -1,0 +1,39 @@
+﻿1.1.1.	Write a console application (BasicVariables) that declares and initializes variables of appropriate data types with specified values.
+
+●	Declare variables using explicit types (int, double, bool, string, decimal) first.
+●	Refactor them to use the implicit typing keyword var.
+●	Challenge: Why does the C# compiler require an initialization value when using var? Write your answer as a multi-line comment at the top of your program.
+
+●	Required variables to declare:
+o	myAge initialized with your age.
+o	myHeight initialized with your height (e.g., 1.72).
+o	isPermanentResident initialized with your residency status (true/false).
+o	myNickname initialized with your nickname.
+o	myEstimatedNetWorth initialized with your estimated net worth.
+o	myLinkedIn initialized with your LinkedIn profile link.
+
+1.1.2.	In the BasicVariables program Display the values of these variables on the console with descriptive labels using Console.WriteLine() method.
+
+1.1.3.	In the BasicVariables program experiment with different formatting options
+●	Modify the height display using composite formatting ({0}, variable) format eg. ("Height is {0}", myHeight).
+●	Modify the name display utilizing explicit string concatenation (string + string)) eg. ("Nickname: " + myNickname).
+●	Modify the all others display line to string interpolation ($” {variable}”) format
+
+1.2. Interactive User Input [Ref: MSDN - Console Input]
+
+1.2.1.	Modify the BasicVariables console application to prompt the user to enter all variables using Console.ReadLine().
+●	Ensure you parse the incoming string data to the appropriate type safely (e.g., using int.Parse(), double.Parse(), decimal.Parse(), or bool.Parse()).
+
+1.3. Data Types and Casting [Ref: MSDN - Casting and Type Conversions]
+1.3.1.	Write a new program called (TypeAndCastCalculator) that performs arithmetic operations (addition +, division /) on two numeric (number1, number2) variables of type integer which entered by prompting user. 
+
+●	Store the result of addition in a sum variable and the result of division in a quotient variable.
+●	Convert inputs using decimal.Parse() or convert integer elements explicitly.
+●	Ensure you handle integer division safely by applying an explicit inline type-cast ((double) or (decimal)) to prevent fractional truncation before processing.
+
+1.4.	 ConstantVariables [Ref: MSDN - Constants]
+
+
+
+
+
